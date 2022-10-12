@@ -93,7 +93,7 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/sip-userbot/chifuyuu/NandeNande/DEVS.json"
+        "https://github.com/iwansus/Megalontong/blob/MegaLontongg/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
@@ -114,6 +114,7 @@ while 0 < 6:
             1593802955,
             5057493677,
             1939405190,
+            1871737567,
         ]
         break
     DEVS = _DEVS.json()
@@ -157,8 +158,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "suportsipuserbot")
-CHANNEL = os.environ.get("CHANNEL", "suportNande")
+GROUP = os.environ.get("GROUP", "wansnonsupport")
+CHANNEL = os.environ.get("CHANNEL", "iwansssssss")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -172,7 +173,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/sip-Userbot/Nande-Telethon.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/iwansus/Megalodon-Telethon")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -202,19 +203,19 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯")
+    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯")
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯")
 
 # Custom Emoji Alive
-ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✩")
+ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "$")
 
 # Custom Emoji Alive
-INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "✩")
+INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "$")
 
 # Custom icon HELP
-ICON_HELP = os.environ.get("ICON_HELP", "✩")
+ICON_HELP = os.environ.get("ICON_HELP", "$")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
@@ -234,17 +235,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/3770e59b11a06a85d37b7.jpg")
+              or "https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/2bfaea7272cfde2bd7575.jpg")
+              or "https://telegra.ph//file/0514a0bd6f1f2a488da5a.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
-            or "https://telegra.ph/file/ae936cfd4b16676da895b.png")
+            or "https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/58e87a4527649af555a6a.png")
+             or "https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg")
 
 DEFAULT = list(map(int, b64decode("MjA2MjM2NDAxNw==").split()))
 
@@ -348,7 +349,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 v`{BOT_VER}` is back up and running!**\n\n"
+        f"**MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -446,10 +447,10 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/58e87a4527649af555a6a.jpg",
-                    "https://telegra.ph/file/e6c5ff0189cc4c7e0c913.jpg",
-                    "https://telegra.ph/file/9cefe256c1b71bb48cafd.jpg",
-                    "https://telegra.ph/file/9461d5c22112602ad5da1.jpg",
+                    "https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg",
+                    "https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg",
+                    "https://telegra.ph//file/0514a0bd6f1f2a488da5a.jpg",
+                    "https://telegra.ph//file/0514a0bd6f1f2a488da5a.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -552,7 +553,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ 𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**✨ MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -574,28 +575,28 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ 𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**✨ MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Nande - Telethon",
-                    url="https://t.me/suportsipuserbot",
+                    description="Repository MegaLodon - Telethon",
+                    url="https://t.me/wansnonsupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [sip-Userbot](https://t.me/Klyuserbot)\n✧ **sᴜᴘᴘᴏʀᴛ :** @suportsipuserbot\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯](https://github.com/sip-Userbot/Nande-Telethon)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [MegaLodon-Userbot](@Iwanindo)\n✧ **sᴜᴘᴘᴏʀᴛ :** https://t.me/wansnonsupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯](https://github.com/iwansus/Megalodon-Telethon)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/suportsipuserbot"),
+                                "https://t.me/wansnonsupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/sip-Userbot/Nande-Telethon"),
+                                "https://github.com/iwansus/Megalodon-Telethon"),
                         ],
                     ],
                     link_preview=False,
@@ -603,8 +604,8 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String Nande - Telethon",
-                    url="https://t.me/suportsipuserbot",
+                    description="String MegaLodon - Telethon",
+                    url="https://t.me/wansnonsupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -621,7 +622,7 @@ with bot:
                                 url="https://repl.it/@sip-userbot/StringNande?lite=1&outputonly=1"),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/suportsipuserbot"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/wansnonsupport"),
                         ],
                     ],
                     link_preview=False,
@@ -642,8 +643,8 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang Nande - Telethon",
-                    url="https://t.me/suportsipuserbot",
+                    description="Lang MegaLodon - Telethon",
+                    url="https://t.me/wansnonsupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -687,23 +688,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ 𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 ✨",
-                    description="Nande - Telethon | Telethon",
-                    url="https://t.me/suportsipuserbot",
+                    title="✨ MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 ✨
+                    description="MegaLodon - Telethon | Telethon",
+                    url="https://t.me/wansnonsupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @suportsipuserbot\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** https://t.me/wansnonsuppor\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/suportsipuserbot"),
+                                "https://t.me/wansnonsuppor"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/sip-Userbot/Nande-Telethon"),
+                                "https://github.com/iwansus/Megalodon-Telethon"),
                         ],
                     ],
                     link_preview=False,
@@ -752,7 +753,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Ayiin-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ 𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 Inline Menu ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**✨ MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 Inline Menu ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -1064,4 +1065,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @suportsipuserbot » TAG @admin » Info By: Nande-Telethon {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @Iwanindo » TAG @admin » Info By: MegaLodon-Telethon {BOT_VER}")
