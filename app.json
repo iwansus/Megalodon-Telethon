@@ -1,21 +1,21 @@
 {
-  "name": "𝙽𝚊𝚗𝚍𝚎 - 𝚄𝚜𝚎𝚛𝚋𝚘𝚝",
-  "description": "[𝙽𝚊𝚗𝚍𝚎 - 𝚄𝚜𝚎𝚛𝚋𝚘𝚝] Selamat pakai, Gunakan dengan bijak",
-  "logo": "https://telegra.ph/file/17dbf290bbadaf6290806.jpg",
-  "keywords": ["telegram", "userbot", "𝙽𝚊𝚗𝚍𝚎 - 𝚄𝚜𝚎𝚛𝚋𝚘𝚝", "modular", "python"],
-  "repository": "https://github.com/sip-Userbot/Nande-Telethon",
+  "name": "Megalodon - 𝚄𝚜𝚎𝚛𝚋𝚘𝚝",
+  "description": "[Megalodon - 𝚄𝚜𝚎𝚛𝚋𝚘𝚝] Selamat pakai, Gunakan dengan bijak",
+  "logo": "https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg",
+  "keywords": ["telegram", "userbot", "Megalodon - 𝚄𝚜𝚎𝚛𝚋𝚘𝚝", "modular", "python"],
+  "repository": "https://github.com/iwansus/Megalodon-Telethon",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di Grup » https://t.me/suportsipuserbot » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Dapatkan API KEY di Grup » https://t.me/wansnonsupport » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di Grup » https://t.me/suportsipuserbot » Lalu ketik /get api atau di web my.telegram.org",
+      "description": "Dapatkan API Hash di Grup » https://t.me/wansnonsupport » Lalu ketik /get api atau di web my.telegram.org",
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » https://t.me/suportsipuserbot » Lalu ketik /get string",
+      "description": "Dapatkan String Session di Grup » https://t.me/wansnonsupport » Lalu ketik /get string",
       "required": true
     },
     "HEROKU_APP_NAME": {
