@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg
+ <img src= https://telegra.ph//file/aa1244ac3cb48177d6c9a.jpg
 </p>
 
 👩‍💻 MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯 adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
