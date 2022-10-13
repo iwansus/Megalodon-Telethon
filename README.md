@@ -113,6 +113,8 @@ Licensed under [Raphielscape Public License](https://github.com/AyiinXd/Ayiin-Us
 
 # Thanks 
 GW UDH PUSING KNTL LUH KALO MAO CLONE YAH TINGAAL CLONE KG USAH BANYAK BACOT KONTOL
+ 
+ # OWNER THLETHON
                                𝐌𝐄𝐆𝐀𝐋𝐎𝐃𝐎𝐍
 
 
