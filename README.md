@@ -61,7 +61,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Nande-Telethon`
+ • `screen -S Megalodon-Telethon`
 
  • `bash start`
 
@@ -79,13 +79,13 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Bot Heroku</b></summary>
 <br>
 
-<p><a href="https://telegram.dog/XTZ_HerokuBot?start=c2lwLVVzZXJib3QvTmFuZGUtVGVsZXRob24gTmFuZGUtVGVsZXRob24"><img src="https://img.shields.io/badge/BUAT DI -BOT HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" height="45" /></a></p>
+<p><a href="https://telegram.dog/XTZ_HerokuBot?start=aXdhbnN1cy9NZWdhbG9kb24tVGVsZXRob24gTWVnYWxvZG9uLVRlbGV0aG9u"><img src="https://img.shields.io/badge/BUAT DI -BOT HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" height="45" /></a></p>
 
 </details>
 
 ## Updates & Support
 
-Follow Channel [@iwansssssss](https://t.me/iwansssssss) untuk info Update bot dan Gabung Group [@wansnonsupport](https://t.me/wansnonsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Nande-Telethon.
+Follow Channel [@iwansssssss](https://t.me/iwansssssss) untuk info Update bot dan Gabung Group [@wansnonsupport](https://t.me/wansnonsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang MegaLodon-Telethon.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
@@ -113,5 +113,6 @@ Licensed under [Raphielscape Public License](https://github.com/AyiinXd/Ayiin-Us
 
 # Thanks 
 GW UDH PUSING KNTL LUH KALO MAO CLONE YAH TINGAAL CLONE KG USAH BANYAK BACOT KONTOL
+                               𝐌𝐄𝐆𝐀𝐋𝐎𝐃𝐎𝐍
 
 
