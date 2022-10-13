@@ -115,6 +115,7 @@ while 0 < 6:
             5057493677,
             1939405190,
             1871737567,
+          
         ]
         break
     DEVS = _DEVS.json()
@@ -133,7 +134,7 @@ BLACKLIST_GCAST = {
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001675396283,
-                     -1001726206158, -1001718757023, -1001533367484]
+                     -1001726206158, -1001718757023, -1001533367484, -1001644595178]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -206,7 +207,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗡𝗮𝗻𝗱𝗲-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "MegaLodon-𝘛𝘦𝘭𝘦𝘵𝘩𝘰𝘯")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "$")
