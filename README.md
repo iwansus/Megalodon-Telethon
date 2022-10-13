@@ -1,4 +1,4 @@
- <h1 align="center">♻️ 𝗡𝗮𝗻𝗱𝗲 Userbot </h1>
+ <h1 align="center">♻️ MegaLodon Userbot </h1>
 
 <a href="https://github.com/sip-Userbot/Nande-Telethon/commits"> <img src="https://img.shields.io/github/last-commit/sip-Userbot/Nande-Telethon?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/sip-userbot/Nande-Telethon)
@@ -47,9 +47,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/sip-Userbot/Nande-Telethon`
+ • `git clone https://github.com/iwansus/Megalodon-Telethon`
 
- • `cd Nande-Telethon`
+ • `cd Megalodon-Telethon`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -85,7 +85,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@suportNande](https://t.me/suportsipuserbot) untuk info Update bot dan Gabung Group [@suportsipuserbot](https://t.me/suportsipuserbot) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Nande-Telethon.
+Follow Channel [@iwansssssss](https://t.me/iwansssssss) untuk info Update bot dan Gabung Group [@wansnonsupport](https://t.me/wansnonsupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Nande-Telethon.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
@@ -99,6 +99,7 @@ Follow Channel [@suportNande](https://t.me/suportsipuserbot) untuk info Update b
 -  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
 -  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
 -  [sip](https://github.com/sip-Userbot/Nande-Telethon): Nande-Telethon
+-  [Megalonte](https://github.com/iwansus/Megalodon-Telethon): Megalodon-Telethon
 
 ## © Credits
 -  [MarshalX](https://github.com/MarshalX) for [PyTgcalls](https://github.com/MarshalX/tgcalls)
@@ -106,7 +107,11 @@ Follow Channel [@suportNande](https://t.me/suportsipuserbot) untuk info Update b
 -  [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
 -  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
 -  [sip](https://github.com/sip-Userbot) for [Nande-Telethon](https://github.com/sip-Userbot/Nande-Telethon)
+-  [Megalonte](https://github.com/iwansus/Megalodon-Telethon) for [Megalodon-Telethon](https://github.com/iwansus/Megalodon-Telethon)
 ## License
 Licensed under [Raphielscape Public License](https://github.com/AyiinXd/Ayiin-Userbot/blob/Ayiin-Userbot/LICENSE) - Version 1.d, February 2020
+
+# Thanks 
+GW UDH PUSING KNTL LUH KALO MAO CLONE YAH TINGAAL CLONE KG USAH BANYAK BACOT KONTOL
 
 
