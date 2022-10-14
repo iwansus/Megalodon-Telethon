@@ -1,2 +1,2 @@
-# Extra Resources for Ayiin-Userbot
-Repository [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
+# Extra Resources for Megalodon-Userbot
+Repository [Megalodon-Telethon](https://github.com/iwansus/Megalodon-Telethon)
